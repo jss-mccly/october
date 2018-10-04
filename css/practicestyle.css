@@ -110,6 +110,22 @@ p {
 	border: 1px solid #fff;
 }
 
+.about-works-container {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.about-works {
+	width = 900px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.about-works-item {
+	border: 1px solid #fff;
+}
+
 .footer {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #000000;
@@ -118,3 +134,4 @@ p {
 	display: flex;
 	justify-content: flex-end;
 }
+
