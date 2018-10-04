@@ -98,8 +98,8 @@ p.centered {
 
 .about-works-container {
 	display: flex;
-	flex-direction: column;
-	align-content: space-around;
+	flex-direction: row;
+	align-items: space-between;
 }
 
 .about-works {
