@@ -82,10 +82,6 @@ p {
 	font-size: 200%;
 }
 
-.centered {
-	text-align: center;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -122,6 +118,12 @@ p {
 
 .about-works-item {
 	border: 1px solid #fff;
+}
+
+.centered {
+	display: flex;
+	justify-content: center;
+	text-align: center;
 }
 
 .footer {
