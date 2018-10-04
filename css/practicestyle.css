@@ -110,16 +110,16 @@ p.centered {
 	width = 900px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .portfolio-works-item {
-	border: 1px solid #fff;
+	justify-content: space-around;
 }
 
 .about-works-container {
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-start;
 }
 
 .about-works {
