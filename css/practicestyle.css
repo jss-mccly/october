@@ -98,13 +98,13 @@ p.centered {
 
 .about-works-container {
 	display: flex;
-	flex-direction: row;
-	align-items: space-between;
+	flex-direction: column;
+	align-content: space-around;
 }
 
 .about-works {
 	display: flex;
-	align-items: space-between;
+	align-items: flex-start;
 }
 
 .about-works-item {
