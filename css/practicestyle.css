@@ -28,6 +28,32 @@ li {
 	float: right;
 }
 
+a {
+	text-decoration: none;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-weight: bolder;
+	font-size: 200%;
+}
+
+li a:hover {
+	background-color: #000000;
+	color: #3333ff;
+}
+
+li.home {
+	background-color: #F5F5F5;
+	float: left;
+}
+
+
 h1 {
 	font-family: 'Courier New', Courier, monotype;
 	color: #000000;
@@ -57,38 +83,10 @@ p {
 	font-size: 200%;
 }
 
-a {
-	text-decoration: none;
-}
-
-li a {
-	display: block;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-family: Arial, Helvetica, sans-serif;
-	color: #000000;
-	font-weight: bolder;
-	font-size: 200%;
-}
-
-li a:hover {
-	background-color: #000000;
-	color: #3333ff;
-}
-
-li.home {
-	background-color: #F5F5F5;
-	float: left;
-}
-
-.footer {
-	font-family: Arial, Helvetica, sans-serif;
-	background-color: #000000;
-	color: #ffffff;
-	font-size: 140%;
-	display: flex;
-	justify-content: flex-end;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .contact-p {
@@ -110,4 +108,13 @@ li.home {
 
 .portfolio-works-item {
 	border: 1px solid #fff;
+}
+
+.footer {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 140%;
+	display: flex;
+	justify-content: flex-end;
 }
