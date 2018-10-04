@@ -91,7 +91,7 @@ p {
 
 .contact-p {
 	display: flex;
-	justify-content: center;
+	text-align: center;
 }
 
 .portfolio-works-container {
