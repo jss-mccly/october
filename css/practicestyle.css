@@ -89,6 +89,11 @@ p {
   box-sizing: border-box;
 }
 
+.content-container {
+	display: flex;
+	justify-content: center;
+}
+
 .portfolio-works-container {
 	display: flex;
 	justify-content: center;
