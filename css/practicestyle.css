@@ -91,24 +91,23 @@ p.centered {
 
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 6px;
+	box-sizing: border-box;
 }
 
 .about-works-container {
 	display: flex;
-	flex-direction: row;
-	align-items: space-between;
 }
 
 .about-works {
 	display: flex;
-	align-items: flex-start;
+	flex-direction: column;
+	justify-content: space-around;
 }
 
 .about-works-item {
-	border: 1px solid #fff;
+	border: 2px solid #fff;
 }
 
 .content-container {
@@ -126,6 +125,7 @@ p.centered {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+	flex-shrink: 1;
 }
 
 .portfolio-works-item {
