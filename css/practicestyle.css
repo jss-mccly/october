@@ -96,6 +96,20 @@ p.centered {
   box-sizing: border-box;
 }
 
+.about-works-container {
+	display: flex;
+	align-items: center;
+}
+
+.about-works {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-works-item {
+	border: 1px solid #fff;
+}
+
 .content-container {
 	display: flex;
 	justify-content: center;
@@ -115,20 +129,6 @@ p.centered {
 
 .portfolio-works-item {
 	justify-content: space-around;
-}
-
-.about-works-container {
-	display: flex;
-	align-items: center;
-}
-
-.about-works {
-	display: flex;
-	justify-content: space-between;
-}
-
-.about-works-item {
-	border: 1px solid #fff;
 }
 
 .footer {
