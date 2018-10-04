@@ -104,11 +104,10 @@ p.centered {
 .about-works {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
 }
 
 .about-works-item {
-	border: 2px solid #fff;
+	justify-content: space-between;
 }
 
 .content-container {
