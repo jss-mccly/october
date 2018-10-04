@@ -99,11 +99,12 @@ p.centered {
 .about-works-container {
 	display: flex;
 	flex-direction: row;
+	align-items: space-between;
 }
 
 .about-works {
 	display: flex;
-	justify-content: space-between;
+	align-items: space-between;
 }
 
 .about-works-item {
