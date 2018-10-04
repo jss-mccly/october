@@ -80,8 +80,15 @@ p {
 	font-family: 'Courier New', Courier, monotype;
 	color: #000000;
 	font-size: 200%;
+}
+
+p.centered {
+	font-family: 'Courier New', Courier, monotype;
+	color: #000000;
+	font-size: 200%;
 	text-align: center;
 }
+
 
 * {
   margin: 0;
