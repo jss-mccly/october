@@ -119,13 +119,13 @@ p.centered {
 
 .about-works-container {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-around;
 }
 
 .about-works {
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
+	align-items: flex-start;
 }
 
 .about-works-item {
