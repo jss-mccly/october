@@ -98,7 +98,7 @@ p.centered {
 
 .about-works-container {
 	display: flex;
-	align-items: center;
+	flex-direction: row;
 }
 
 .about-works {
