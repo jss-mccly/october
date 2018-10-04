@@ -48,7 +48,6 @@ h3 {
 	font-family: 'Courier New', Courier, monotype;
 	color: #000000;
 	font-size: 300%;
-	margin-left: 18px;
 	margin-bottom: -18px;
 }
 
@@ -89,9 +88,8 @@ li.home {
 	color: #ffffff;
 	font-size: 140%;
 	display: flex;
-	justify-content: right;
+	justify-content: flex-end;
 }
-
 
 .contact-p {
 	display: flex;
