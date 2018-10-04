@@ -14,12 +14,6 @@ html.pagebg {
 	background: url(https://raw.githubusercontent.com/jss-mccly/practice/master/images/abstractbg.jpeg) no-repeat center center fixed;
 }
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -139,3 +133,8 @@ p.centered {
 	justify-content: flex-end;
 }
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
