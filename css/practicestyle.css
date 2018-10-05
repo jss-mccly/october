@@ -4,6 +4,7 @@ html {
 
 body {
 	background-color: #F5F5F5;
+	box-sizing: content-box;
 }
 
 html.homebg {
@@ -12,6 +13,10 @@ html.homebg {
 
 html.pagebg {
 	background: url(https://raw.githubusercontent.com/jss-mccly/practice/master/images/abstractbg.jpeg) no-repeat center center fixed;
+}
+
+* {
+	box-sizing: content-box;
 }
 
 ul {
@@ -96,7 +101,12 @@ p.centered {
 
 .about-works {
 	display: flex;
+	flex-flow: row wrap;
 	justify-content:
+}
+
+.about-works-item {
+	justify-content: space-around;
 }
 
 .content-container {
@@ -114,6 +124,10 @@ p.centered {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+
+.portfolio-works-item {
+	justify-content: space-around;
 }
 
 .footer {
