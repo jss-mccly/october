@@ -2,6 +2,10 @@ html {
 	background-size: cover;
 }
 
+body {
+	background-color: #F5F5F5;
+}
+
 html.homebg {
 	background: url(https://raw.githubusercontent.com/jss-mccly/practice/master/images/homebg.jpeg) no-repeat center center fixed;
 }
@@ -10,8 +14,10 @@ html.pagebg {
 	background: url(https://raw.githubusercontent.com/jss-mccly/practice/master/images/abstractbg.jpeg) no-repeat center center fixed;
 }
 
-body {
-	background-color: #F5F5F5;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
 }
 
 ul {
@@ -74,12 +80,6 @@ h3 {
 	font-family: 'Courier New', Courier, monotype;
 	color: #000000;
 	font-size: 300%;
-}
-
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
 }
 
 p {
