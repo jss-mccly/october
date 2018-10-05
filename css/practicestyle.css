@@ -2,6 +2,12 @@ html {
 	background-size: cover;
 }
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
 	background-color: #F5F5F5;
 }
@@ -117,7 +123,6 @@ p.centered {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	flex-shrink: 1;
 }
 
 .portfolio-works-item {
@@ -131,10 +136,4 @@ p.centered {
 	font-size: 140%;
 	display: flex;
 	justify-content: flex-end;
-}
-
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
 }
