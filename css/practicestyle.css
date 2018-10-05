@@ -4,7 +4,6 @@ html {
 
 body {
 	background-color: #F5F5F5;
-	box-sizing: content-box;
 }
 
 html.homebg {
@@ -78,7 +77,6 @@ h3 {
 	font-family: 'Courier New', Courier, monotype;
 	color: #000000;
 	font-size: 300%;
-	margin-left: 18px;
 	margin-bottom: -18px;
 }
 
@@ -125,7 +123,7 @@ p.centered {
 	width = 900px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	align-items: space-between;
 }
 
 .portfolio-works-item {
