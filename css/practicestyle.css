@@ -98,12 +98,13 @@ p.centered {
 .about-works-container {
 	display: flex;
 	justify-content: center;
-	bottom-margin: 18px;
+	align-content: center;
+	bottom-margin: 32px;
 }
 
 .about-works {
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: row nowrap;
 }
 
 .about-works-item {
