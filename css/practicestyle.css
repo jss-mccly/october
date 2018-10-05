@@ -115,6 +115,13 @@ p.centered {
 	justify-content: center;
 }
 
+.home-content-container {
+	display: flex;
+	left-margin: 12px;
+}
+
+
+
 .portfolio-works-container {
 	display: flex;
 	justify-content: center;
