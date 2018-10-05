@@ -117,9 +117,8 @@ p.centered {
 
 .home-content-container {
 	display: flex;
-	left-margin: 12px;
+	top-margin: 12px;
 }
-
 
 
 .portfolio-works-container {
