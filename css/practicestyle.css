@@ -117,7 +117,7 @@ p.centered {
 
 .home-content-container {
 	display: flex;
-	top-margin: 12px;
+	text-align: right;
 }
 
 
