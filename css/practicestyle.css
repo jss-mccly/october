@@ -4,7 +4,7 @@ html {
 
 body {
 	background-color: #F5F5F5;
-	box-sizing: content-box;
+	background-height: 1500px
 }
 
 html.homebg {
@@ -13,10 +13,6 @@ html.homebg {
 
 html.pagebg {
 	background: url(https://raw.githubusercontent.com/jss-mccly/practice/master/images/abstractbg.jpeg) no-repeat center center fixed;
-}
-
-* {
-	box-sizing: content-box;
 }
 
 ul {
