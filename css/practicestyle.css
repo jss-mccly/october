@@ -15,8 +15,6 @@ html.pagebg {
 }
 
 * {
-	margin: 0;
-	padding: 0;
 	box-sizing: content-box;
 }
 
@@ -59,7 +57,6 @@ li.home {
 	float: left;
 }
 
-
 h1 {
 	font-family: 'Courier New', Courier, monotype;
 	color: #000000;
@@ -80,6 +77,8 @@ h3 {
 	font-family: 'Courier New', Courier, monotype;
 	color: #000000;
 	font-size: 300%;
+	margin-left: 18px;
+	margin-bottom: -18px;
 }
 
 p {
@@ -102,10 +101,11 @@ p.centered {
 .about-works {
 	display: flex;
 	flex-flow: row wrap;
+	justify-content:
 }
 
 .about-works-item {
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .content-container {
@@ -122,7 +122,7 @@ p.centered {
 	width = 900px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .portfolio-works-item {
@@ -134,6 +134,5 @@ p.centered {
 	background-color: #000000;
 	color: #ffffff;
 	font-size: 140%;
-	display: flex;
-	justify-content: flex-end;
+	text-align: right;
 }
