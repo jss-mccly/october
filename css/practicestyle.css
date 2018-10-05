@@ -98,8 +98,8 @@ p.centered {
 .about-works-container {
 	display: flex;
 	justify-content: center;
-	align-content: center;
-	bottom-margin: 32px;
+	align-items: center;
+	margin: 32px;
 }
 
 .about-works {
