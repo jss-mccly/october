@@ -96,12 +96,7 @@ p.centered {
 
 .about-works {
 	display: flex;
-	flex-flow: row wrap;
 	justify-content:
-}
-
-.about-works-item {
-	justify-content: space-around;
 }
 
 .content-container {
@@ -119,10 +114,6 @@ p.centered {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-}
-
-.portfolio-works-item {
-	justify-content: space-around;
 }
 
 .footer {
