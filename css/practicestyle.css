@@ -126,6 +126,7 @@ p.centered {
 
 
 .portfolio-works-container {
+	width = 900px;
 	display: flex;
 	justify-content: center;
 }
