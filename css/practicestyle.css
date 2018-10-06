@@ -19,10 +19,6 @@ html.pagebg {
 	background: url(https://raw.githubusercontent.com/jss-mccly/practice/master/images/abstractbg.jpeg) no-repeat center center fixed;
 }
 
-* {
-	box-sizing: padding-box;
-}
-
 ul {
 	list-style-type: none;
 	margin: 0;
