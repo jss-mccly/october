@@ -16,7 +16,7 @@ html.homebg {
 }
 
 html.pagebg {
-	background: url(https://raw.githubusercontent.com/jss-mccly/practice/master/images/abstractbg.jpeg) no-repeat center center fixed;
+	background: url(../images/abstractbg.jpeg) no-repeat center center fixed;
 }
 
 ul {
